@@ -1,0 +1,146 @@
+body {
+	background-color: rgb(235, 235, 235);
+	color: rgb(99,99,99);
+	font-family: courier;
+  font-size: 18px;
+}
+
+h1 {
+	color: black;
+	font-family: "Roboto", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;   
+}
+
+h2 {
+	color: rgb(90, 90, 90);
+	font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 20px;
+}
+
+a:hover {
+	color: rgb(166,166,166);
+}
+
+p {
+	font-family: "Lato", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    color: 26408B;
+    font-size: 20px;
+}
+
+.img-circle { 
+  border-radius: 50%;
+  height: 160px;
+}
+
+.img-bordered {
+  border: 4px lightgray; 
+}
+
+#leader {
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.9);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 200px;
+	text-align: center;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.btn-purple {
+	font-family: "Roboto Slab", serif;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #C9B59C;
+	padding: 10px 20px;
+	border-radius: 4px;
+	color: white;
+}
+
+.btn-purple:hover {
+	color: rgb(160,160,160);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+    color: rgb(220, 220, 220);
+}
+
+.list-inline i:hover {
+    color: #D9CFC7;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #C9B59C;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.6;
+}
+
+.sidebar ul {
+  list-style: none;
+	padding-left: 0px;
+}
+
+.page-content {
+  margin-left: 100px;
+}
